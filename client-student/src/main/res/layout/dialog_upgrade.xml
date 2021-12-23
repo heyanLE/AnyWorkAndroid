@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A000000"
+    >
+
+    <RelativeLayout
+        android:layout_width="245dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_upgrade_dialog_shape">
+
+        <ImageView
+            android:id="@+id/iv_upgrade_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="78.71dp"
+            android:src="@drawable/bg_upgrade_dialog"
+            android:tag="beta_upgrade_banner"
+            />
+
+        <TextView
+            android:id="@+id/tv_find_new_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tool:text="发现最新版本1.0.1"
+            android:textColor="#ffffffff"
+            android:textSize="10sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:tag="beta_title"
+            />
+
+        <TextView
+            android:id="@+id/tv_upgrade_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tool:text="新版本大小：10M"
+            android:textColor="#ffc8d8fe"
+            android:textSize="6sp"
+            android:layout_marginTop="49dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:tag="beta_upgrade_info"
+            />
+
+        <TextView
+            android:id="@+id/tv_upgrade_feature"
+            android:layout_width="115dp"
+            android:layout_height="53dp"
+            tool:text="1.修复了一些bug；\n2.更新了题库；\n3.新增“XXX”功能；"
+            android:textColor="#ff353535"
+            android:textSize="12sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:tag="beta_upgrade_feature"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="稍后再说"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:textColor="#ff747474"
+                android:tag="beta_cancel_button"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="#ffe2e2e2"
+                android:layout_gravity="center_vertical"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="立即更新"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:textColor="#ff4287ff"
+                android:tag="beta_confirm_button"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

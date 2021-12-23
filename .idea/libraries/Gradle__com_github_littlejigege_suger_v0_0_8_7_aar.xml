@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.littlejigege:suger:v0.0.8.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe691766c06a3277fd388db3cc2cdae6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe691766c06a3277fd388db3cc2cdae6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe691766c06a3277fd388db3cc2cdae6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a29e544eaddab2451ed5451410c182d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a29e544eaddab2451ed5451410c182d/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a29e544eaddab2451ed5451410c182d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

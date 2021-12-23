@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_filling"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="bottom|center_horizontal"
+        android:textColor="#616161"
+        android:textSize="18sp"
+        tools:text="1." />
+
+    <EditText
+        android:id="@+id/edi_filling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background"
+        android:gravity="left|top"
+        android:hint="请输入你的答案..."
+        android:maxLines="10"
+        android:minLines="1"
+        android:padding="8dp"
+        android:textColor="#616161"
+        android:textColorHint="#66616161"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.tinker:tinker-android-lib:1.9.9@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c32533e36fb52efad76336815195582f/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/826a0690c384e07b7a8005888b4462ef/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/826a0690c384e07b7a8005888b4462ef/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c32533e36fb52efad76336815195582f/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c32533e36fb52efad76336815195582f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c32533e36fb52efad76336815195582f/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/724012df4b38cb61c010c83788b13983/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/826a0690c384e07b7a8005888b4462ef/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/826a0690c384e07b7a8005888b4462ef/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/826a0690c384e07b7a8005888b4462ef/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/826a0690c384e07b7a8005888b4462ef/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/826a0690c384e07b7a8005888b4462ef/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-android-lib/1.9.9/5322d7cc44efb589e6b0c25edde821884e8b8583/tinker-android-lib-1.9.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

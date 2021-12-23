@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.qgstudio.anyworkc"
+    android:versionCode="1">
+    <!-- 访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 监听网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 向SDCard读取数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name="com.qgstudio.anyworkc.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AnyWork.Theme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="n">
+        <activity android:name="com.qgstudio.anyworkc.records.RecordsActivity"
+                android:screenOrientation="portrait"
+            />
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+<!--
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent" />
+
+-->
+        <activity android:name=".main.StatusActivity"/>
+        <activity android:name="com.qgstudio.anyworkc.enter.EnterActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.qgstudio.anyworkc.StartActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.qgstudio.anyworkc.grade.GradeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.main.HomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.exam.ExamActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.paper.PaperActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.user.UserActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.main.SearchingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.feedback.FeedbackActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.main.NewOrganizationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.user.ChangePasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.user.ChangeInfoActivity"
+            android:screenOrientation="portrait"/>
+
+        <receiver android:name="com.qgstudio.anyworkc.common.NetworkStatusReceiver"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.qgstudio.anyworkc.notice.NoticeActivity"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name="com.qgstudio.anyworkc.user.AppService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+
+        <activity android:name="com.qgstudio.anyworkc.workout.WorkoutContainerActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.search.SearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qgstudio.anyworkc.collection.CollectionActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent"
+            />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="name,authorities,exported,grantUriPermissions">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                tools:replace="name,resource"/>
+        </provider>
+    </application>
+
+</manifest>

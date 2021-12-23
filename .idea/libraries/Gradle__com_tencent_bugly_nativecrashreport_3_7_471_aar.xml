@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.bugly:nativecrashreport:3.7.471@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23b455ce895b010a0fddedc26805e92d/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23b455ce895b010a0fddedc26805e92d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23b455ce895b010a0fddedc26805e92d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ceef7f3a4aa9d682d891eddac700f4a5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ceef7f3a4aa9d682d891eddac700f4a5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ceef7f3a4aa9d682d891eddac700f4a5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ceef7f3a4aa9d682d891eddac700f4a5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ceef7f3a4aa9d682d891eddac700f4a5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ceef7f3a4aa9d682d891eddac700f4a5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.bugly/nativecrashreport/3.7.471/4f969e2d63426a3a69eed37ee6f4a0b7e27aae7b/nativecrashreport-3.7.471-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.bugly/nativecrashreport/3.7.471/4f969e2d63426a3a69eed37ee6f4a0b7e27aae7b/nativecrashreport-3.7.471-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

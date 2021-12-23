@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:interpolator:28.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d181ac52322c8b47e27772f390971deb/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d181ac52322c8b47e27772f390971deb/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d181ac52322c8b47e27772f390971deb/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5dad00b56d758df89070a43fac63908/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de749c1af9883ba0af73143eb1dd1e03/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de749c1af9883ba0af73143eb1dd1e03/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de749c1af9883ba0af73143eb1dd1e03/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de749c1af9883ba0af73143eb1dd1e03/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de749c1af9883ba0af73143eb1dd1e03/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

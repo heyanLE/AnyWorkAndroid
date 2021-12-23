@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: jp.wasabeef:glide-transformations:2.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d799cffaee9cd41176d2f0c8ae329a0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d799cffaee9cd41176d2f0c8ae329a0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d799cffaee9cd41176d2f0c8ae329a0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4372526f99a89d39d72fe561b5bea827/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70b179e407fe24fd50bf50f7721cd00f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70b179e407fe24fd50bf50f7721cd00f/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70b179e407fe24fd50bf50f7721cd00f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70b179e407fe24fd50bf50f7721cd00f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70b179e407fe24fd50bf50f7721cd00f/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef/glide-transformations/2.0.1/4d029bfd24c8687071059eb0b1a6a89f25f9210c/glide-transformations-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
